@@ -1,41 +1,42 @@
 export const projectData = [
   {
-    name: 'Maurice.design',
-    desc: 'Creative portfolio website for maurice',
-    lang: 'parcel + html + gsap + sass',
-    link: 'https://maurice-victor.netlify.app',
+    name: 'Enterprise Hub',
+    desc: 'A website for booking office spaces',
+    lang: 'Reactjs + Tailwind + Framer Motion',
+    link: 'https://enterprise-hub-khaki.vercel.app/',
   },
   {
-    name: 'Circle Finance',
-    desc: 'Unlock your Financial Potential',
-    lang: 'NEXTJS + SCSS',
-    link: 'https://circlefinance.ng',
+    name: 'Opulon',
+    desc: 'An Immersive Virtual World Built on Solana',
+    lang: 'Reactjs + Tailwind + Framer Motion',
+    link: 'http://opulon.world/',
   },
   {
-    name: 'CitySubs',
-    desc: 'A mini web app for a grill restaurant',
-    lang: 'NextJS + AIRTABLE + RESEND',
-    link: 'https://citysub.pariola.dev',
+    name: 'Crypto Swap',
+    desc: 'A mini web app for swapping crypto',
+    lang: 'Vuejs + Tailwind ',
+    link: 'https://crypto-swap-website.vercel.app/',
   },
   {
-    name: 'Shrimppp',
-    desc: 'Creative website for Shrimppp Food product',
-    lang: 'Vuejs + Gsap',
-    link: 'https://shrimppp.pariola.dev',
+    name: 'Meal Planner Website',
+    desc: 'Creative website that plan your weekly meal with chatGPT',
+    lang: 'React + Gsap + openAI',
+    link: 'https://github.com/Bello2609/Meal-Planner-with-chapgpt',
   },
+  {
+    name: 'Decomposer',
+    desc: 'Creative website marketplace for hiring and getting music gigs',
+    lang: 'Reactjs + Nodejs ',
+    link: 'https://decomposer.vercel.app/',
+  },
+  {
+    name: 'Ecommerce',
+    desc: 'A monolithic ecommerce api ',
+    lang: 'Nodejs + expressjs + mongoDB ',
+    link: 'https://github.com/Bello2609/complete-node-shop',
+  },
+  
 
-  {
-    name: 'Covapay',
-    desc: 'If a fintech website was so cool and creative',
-    lang: 'AstroJS + SCSS + GSAP',
-    link: 'https://pariola.dev',
-  },
-  {
-    name: 'Enesee Agency',
-    desc: 'Web3 based digital agency',
-    lang: 'VueJS + SCSS + GSAP',
-    link: 'https://enesee.agency',
-  },
 
   // {
   //   name: 'ChurchRUSH',

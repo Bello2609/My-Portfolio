@@ -10,7 +10,7 @@ export default function Layout(props: any) {
   const router = useRouter();
   const meta = {
     description: `I enjoy creating software solutions with solid foundations, scalability, and excellent user experiences.`,
-    image: 'https://bellohadi.vercel.app/meta-bello.jpg',
+    image: 'https://bellohadi.vercel.app/meta/meta-bello.jpg',
     type: 'website',
     ...customMeta,
   };
@@ -31,12 +31,12 @@ export default function Layout(props: any) {
         <meta content={meta.description} name="description" />
         <meta
           property="og:url"
-          content={`https://pariola.dev${router.asPath}`}
+          content={`https://bellohadi.vercel.app${router.asPath}`}
         />
-        <link rel="canonical" href={`https://pariola.dev${router.asPath}`} />
+        <link rel="canonical" href={`https://bellohadi.vercel.app${router.asPath}`} />
         {/*  */}
         <meta property="og:type" content={meta.type} />
-        <meta property="og:site_name" content="Pariola" />
+        <meta property="og:site_name" content="Bello Hadi" />
         <meta property="og:description" content={meta.description} />
         <meta
           property="og:title"
@@ -49,7 +49,7 @@ export default function Layout(props: any) {
         <meta property="og:image" content={meta.image} />
         {/*  */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@ipariola" />
+        <meta name="twitter:site" content="@alliendeveloper" />
         <meta
           name="twitter:title"
           content={
