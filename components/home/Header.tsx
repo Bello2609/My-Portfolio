@@ -14,15 +14,15 @@ export default function Header() {
           <div className={styles.text}>
             <div className={styles.textI}>
               <div className={styles.gradientText}>
-                <h1>Frontend</h1>
+                <h1>Software</h1>
 
                 <h1>
-                  Developer<span>.</span>
+                  Engineer<span>.</span>
                 </h1>
               </div>
 
               <p>
-                I like to craft solid and scalable frontend products with great
+                I like to craft solid and scalable software products with great
                 user experiences.
               </p>
             </div>
@@ -34,7 +34,7 @@ export default function Header() {
               </p>
 
               <p id="h1BG">
-                Over a two years of experience building products for clients
+                Over a three years of experience building products for clients
                 across africa.
               </p>
             </div>
@@ -42,17 +42,9 @@ export default function Header() {
 
           <div className={styles.imageH}>
             <div>
-              {/*
-              <Image
-                src={Fineboy}
-                className={styles.fineBoy}
-                alt="Pariola's Picture"
-                placeholder="blur"
-              />
-              */}
               <div
                 role="img"
-                aria-label="Pariola's Picture"
+                aria-label="bello's Picture"
                 className={styles.fineBoy}
               />
             </div>

@@ -40,14 +40,14 @@ export default function Caption() {
               <p>
                 About design,
                 <br />
-                frontend dev,
+                software engineering,
                 <br />
                 learning and life.
               </p>
             </article>
 
             <a
-              href="https://blog.pariola.dev"
+              href="https://medium.com/@hadibello"
               target="_blank"
               rel="noopener noreferrer"
               className={styles.aCapture}

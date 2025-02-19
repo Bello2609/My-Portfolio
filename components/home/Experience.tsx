@@ -18,16 +18,14 @@ export default function Experience() {
               I&apos;ve built products for companies and individuals around
               africa ranging from marketing websites to complex solutions and
               enterprise apps with focus on fast, elegant and accessible user
-              experiences. Currently, I work at{' '}
-              <a href="https://diool.com">Diool</a> as a frontend engineer in
-              the growth team.
+              experiences. Currently, I am freelancing, looking for freelance work
             </p>
 
             <p>
-              Before now, I worked as the Founding Frontend Engineer at{' '}
-              <a href="https://tryklas.com">Klas</a>, crafting thoughtful and
-              inclusive experiences that adhere to web standards. Prior to Klas,
-              I was a front engineer contractor with Regnify and Haxell,
+              Before now, I worked as a Software  Engineer at{' '}
+              Enterprise Hub, crafting thoughtful and
+              inclusive experiences that adhere to web standards. Prior to Enterprise Hub,
+              I was a software engineer contractor with bluebridge technology and ood technologies,
               building digital products that users love
             </p>
           </article>
