@@ -1,5 +1,5 @@
 ## Bello Hadi
 
-Creative Software Engineer
+Creative Web and mobile Developer
 
-This Portfolio [Bello.dev](https://pariola.dev) is inspired by [pariola.dev](https://pariola.dev).
+This Portfolio [Bello.dev](https://bellohadi.vercel.app/) is inspired by [pariola.dev](https://pariola.dev).
