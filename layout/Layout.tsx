@@ -9,7 +9,7 @@ export default function Layout(props: any) {
   const { children, ...customMeta } = props;
   const router = useRouter();
   const meta = {
-    description: `I enjoy creating software solutions with solid foundations, scalability, and excellent user experiences.`,
+    description: `I enjoy creating web and mobile app development solutions with solid foundations, scalability, and excellent user experiences.`,
     image: 'https://bellohadi.vercel.app/meta/meta-bello.jpg',
     type: 'website',
     ...customMeta,

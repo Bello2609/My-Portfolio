@@ -22,7 +22,7 @@ export default function About() {
             <h1 id="h1BG">Engineering</h1>
 
             <p>
-              I have the ideal tools for developing JavaScript applications, and
+              I have the ideal tools for developing JavaScript website and mobile  applications, and
               I can definitely work without them to produce quick, durable
               solutions that are designed for growth &#8211; performance and
               scalability are top objectives on my radar.
