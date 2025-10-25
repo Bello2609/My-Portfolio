@@ -9,7 +9,7 @@ export const projectData = [
     name: 'Opulon',
     desc: 'An Immersive Virtual World Built on Solana',
     lang: 'Reactjs + Tailwind + Framer Motion',
-    link: 'http://opulon.world/',
+    link: 'https://opulon-landing-page.vercel.app/',
   },
   {
     name: 'Crypto Swap',
