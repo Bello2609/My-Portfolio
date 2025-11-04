@@ -35,6 +35,12 @@ export const projectData = [
     lang: 'Nodejs + expressjs + mongoDB ',
     link: 'https://github.com/Bello2609/complete-node-shop',
   },
+  {
+  name: 'KYC verification',
+  desc: 'An Api for verifying kyc with the users bvn',
+  lang: 'Nodejs + nestjs + mongoDB ',
+  link: 'https://github.com/Bello2609/kyc-verification-with-bvn',
+},
   
 
 
