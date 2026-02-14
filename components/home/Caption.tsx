@@ -9,17 +9,17 @@ export default function Caption() {
           <div className={styles.capture}>
             <article className={styles.captureText}>
               <h1 id="h1BG">
-                I build &amp;
-                <br />
-                design stuff
+                Freelance Software Engineer & &nbsp;
+                {/* <br /> */}
+                API Integration 
               </h1>
 
               <p>
-                Open source
+                I help startups and businesses
                 <br />
-                projects, web apps
+                 ship production-ready apps
                 <br />
-                and experimentals.
+                with clean code and delightful UX.
               </p>
             </article>
 

@@ -7,6 +7,7 @@ import Caption from '../components/home/Caption';
 import Experience from '../components/home/Experience';
 import Projects from '../components/home/Projects';
 import Contact from '../components/home/Contact';
+import Skills from 'components/home/Skills';
 import scroll from 'animations/scroll';
 
 export default function Home() {
@@ -21,6 +22,7 @@ export default function Home() {
         <About />
         <Caption />
         <Experience />
+        <Skills />
         <Projects />
         <Contact />
       </main>

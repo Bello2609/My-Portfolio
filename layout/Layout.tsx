@@ -9,7 +9,11 @@ export default function Layout(props: any) {
   const { children, ...customMeta } = props;
   const router = useRouter();
   const meta = {
-    description: `I enjoy creating web and mobile app development solutions with solid foundations, scalability, and excellent user experiences.`,
+    description: `website developer, web application developer, website designer, 
+    React developer, Node.js engineer, freelance software developer, javascript developer,
+    Software Engineer, Web Developer, Full Stack Developer, Backend Developer, Frontend Developer,
+    Mobile App Developer, Application Developer, API Integration
+    `,
     image: 'https://bellohadi.vercel.app/meta/meta-bello.jpg',
     type: 'website',
     ...customMeta,
@@ -19,15 +23,15 @@ export default function Layout(props: any) {
       <Head>
         <title>
           {meta.title
-            ? `${meta.title} • Bello Hadi | Creative Software Engineer`
-            : 'Bello Hadi | Creative Software Engineer'}
+            ? `${meta.title} • Bello Hadi | Freelance Full-Stack Software Engineer`
+            : 'Bello Hadi | Freelance Full-Stack Software Engineer'}
         </title>
         <meta name="robots" content="follow, index" />
         <meta
           name="keyword"
-          content="Bello Hadi Dolapo, Bello Hadi, Portfolio, Creative Software Engineer"
+          content="Bello Hadi Dolapo, Bello Hadi, Portfolio, Freelance Full-Stack Software Engineer"
         />
-        <meta name="author" content="Bello Hadi - Creative Software Engineer" />
+        <meta name="author" content="Bello Hadi - Freelance Full-Stack Software Engineer" />
         <meta content={meta.description} name="description" />
         <meta
           property="og:url"
@@ -42,8 +46,8 @@ export default function Layout(props: any) {
           property="og:title"
           content={
             meta.title
-              ? `${meta.title} • Bello Hadi | Creative Software Engineer`
-              : 'Bello Hadi | Creative Software Engineer'
+              ? `${meta.title} • Bello Hadi | Freelance Full-Stack Software Engineer`
+              : 'Bello Hadi | Freelance Full-Stack Software Engineer'
           }
         />
         <meta property="og:image" content={meta.image} />
@@ -54,8 +58,8 @@ export default function Layout(props: any) {
           name="twitter:title"
           content={
             meta.title
-            ? `${meta.title} • Bello Hadi | Creative Software Engineer`
-            : 'Bello Hadi | Creative Software Engineer'
+            ? `${meta.title} • Bello Hadi | Freelance Full-Stack Software Engineer`
+            : 'Bello Hadi | Freelance Full-Stack Software Engineer'
           }
         />
         <meta name="twitter:description" content={meta.description} />

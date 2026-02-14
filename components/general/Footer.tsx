@@ -1,7 +1,9 @@
 //Basic styles import
 import Link from 'next/link';
 import styles from './styles/footer.module.scss';
-
+import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaSquareUpwork } from "react-icons/fa6";
+import { SiFiverr } from "react-icons/si";
 export default function Footer() {
   const Year = new Date().getFullYear();
 
@@ -14,7 +16,7 @@ export default function Footer() {
 
             <ul>
               <li>
-                <a href="mailto:bellohadi82@gmail.com">hi@bello.dev</a>
+                <a href="mailto:bellohadi82@gmail.com">bellohadi82@gmail.com</a>
               </li>
               <li>
                 <a
@@ -61,7 +63,7 @@ export default function Footer() {
                 target="_blanket"
                 rel="noopener"
               >
-                tw
+                <FaTwitter />
               </a>
             </li>
             <li>
@@ -70,7 +72,7 @@ export default function Footer() {
                 target="_blanket"
                 rel="noopener"
               >
-                gh
+                <FaGithub />
               </a>
             </li>
             <li>
@@ -79,7 +81,7 @@ export default function Footer() {
                 target="_blanket"
                 rel="noopener"
               >
-                ln
+                <FaLinkedin />
               </a>
             </li>
             <li>
@@ -88,7 +90,7 @@ export default function Footer() {
                 target="_blanket"
                 rel="noopener"
               >
-                up
+                <FaSquareUpwork />
               </a>
             </li>
             <li>
@@ -97,7 +99,7 @@ export default function Footer() {
                 target="_blanket"
                 rel="noopener"
               >
-                fi
+                <SiFiverr />
               </a>
             </li>
           </ul>
